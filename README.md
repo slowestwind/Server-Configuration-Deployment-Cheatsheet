@@ -3,11 +3,11 @@
 ## Create VPS & Firewall 
 1. Create account on any hosting server provider then create a vps (i.e droplets in case of DigitalOcean)
 
-2. Login into server using ssh command
+2. **Login into server using ssh command**
 
 `ssh root@user_name` and then password
 
-3. Create user with access
+3. **Create user with access**
 
 `adduser {username}`
 
@@ -35,11 +35,11 @@
 
 `scp -r user@host:/path/folder /path/folder` (user -r for folder transfer)
 
-- **using .pem file**
+- *using .pem file*
 
 `sudo scp -i ~/servers/your-key.pem ~/your-local-source-path/your-local-file.txt root@00.00.00.11:/you-server-destination-path/`
 
-3. Passwordless login
+3. **Passwordless login**
 - create a public-private key pair
 
 `ssh-keygen -t rsa`
